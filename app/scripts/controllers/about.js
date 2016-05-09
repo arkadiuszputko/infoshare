@@ -10,8 +10,9 @@
 angular.module('infoshareAppApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
-      'HTML5 Boilerplate',
+      'Travis',
       'AngularJS',
-      'Karma'
+      'Github',
+      'Heroku'
     ];
   });
