@@ -13,6 +13,7 @@ deploy:
   provider: heroku
   api_key:
     secure: ajCMILFaED0A3HFEMctO9IGxAXWULowlxls1GqQ1DDccKgbZoLPU545CbcvCj6lH3RpE0+4dkLumKunsFGFmGXOT1AYMNBPNg5OcXerVmdYwKfQY/WMhAWNrufFkQhmBe9UwP8lF+tFsbHmhiRcBtLA/WXbjUbGFLqYot/FXguZLejQd89xecceNojDoidLe9M6uhHg61SVMlcKWKzXPw0AS9+lmEWYEY9giXt2Y2oe87TCUiEZnHkxeKBBmDP+kqSzI0hBC9S9AVA/Z3WK3eGt5ASHhCh3foC+1LQ/6M9vlrNmJSJPJW08lEb8oqITTAftNQocnmc2ZisR5gxriF7KzW+xlbbjTpcZIqxgeqI5EZElBeDbp/svx0scdcP0RolHlgo3+y5GkuC1+u3ONZuXU3SAKFXBJD3SkXRkoxDT8gOtPT/8bPbJxhI/hrSOfJ/+vHNlMoZW0vp11qIDVE6pJz321N/7YSRbksaESZFSbfUAGzztV7IDyNLcOCPEBFOFla0FVF5GMrCIqZNGuk4r0+KY6kI9z30++j0mfAcCnkw2zcgOVlyCN419m/sCNt+3tYH4/CxNPruQe8KVNX/7/kIYhBO/kXs33jDJ7UwfLs8bGi/mezk1m4SeSTs12SGNit4KOYfX3/LcsOjZeo94x5dDw5OAMMaYGCVrIgzE=
+  on: master
   run:
       - grunt build
       - node server.js
