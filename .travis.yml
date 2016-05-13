@@ -16,7 +16,7 @@ deploy:
     secure: cuOheBpGGkacWgI3NnbH8w5MPZLxbCOByJMszsOF0yrkouJh92NR/XHk+FH8a4ZSfOTGJ1nuFl7h2Z2OiRQZhmeKknvwAYxao/pEsS5nuf2RVCxj+a+loRCrpT7pz9l/Q+VtxWIOpViQO/QKmp7VOSMeza0QCXc/auBgLz+hN4OdJVJXfTZAkumg92gjJINzzt3uGHVFviJRJMcuENh9UveAv/hVQgbkdYDKU6ZILRpkRINgzB7ZrX2NDOkkrgKGu9K7IWjVCDflsJGtEkQ9Tw/IrwVXu0IdN8Ly+5iBInsOkKZ8yOEoqlwjJucOOzwha0wpSVAPuMfmfg98aly6J+orfo7MX96uQk6GTwY5q68cwYGRcyhLdcHvqWem578PRwdmJAUnKYu7ZG6mSzUrtZSRsHQI6deAMPSARjjQqYQNvMXuXdCuM5CxQZB8M5xm0kuHv6/z87kVZdKh5ARg/rrdlhx8LCcTJW5JVe85p19y4Sg15bYFWpe2QXyksEx7utud3EcEVppJ0BU9JFqJLuteFCsgmgFELXFr88Qk20dsGWeGlNzUswe5JApGhc88wIca9YJ93i3aMbKFlvjWKW9ZrpINIVfYWbXdVGudRI8d0bKqDBJ4QbgHAmro9yuAg5O/LtX1/mth3j8IfvK0yTf/vNkMJOBYXv/38m14gy0=
   app: apinfoshareapp
   on:
-    repo: arkadiuszputko/infoshare:master
+    master
   run:
   - grunt build
   - node server.js
