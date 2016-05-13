@@ -11,7 +11,7 @@ angular.module('infoshareAppApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'Travis',
-      'AngularJS',
+      'Yeoman',
       'Github',
       'Heroku'
     ];
